@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+  width: 100vw;
+  height: 100hw;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-nav{
+    gap: 20px;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.button{
+    padding: 13.5px 27px;
+    background-color: crimson;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.one{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 200px;
+    gap: 50px;
+}
+
+.pix{
+    position: absolute;
+    top: 580px;
+
+}
+
+.two{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    gap: 50px;
+}
+
+.three{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 180px;
+    gap: 50px;
+}
+
+.four{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    gap: 50px;
+}
+
+.five{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    gap: 50px;
+}
+
+.dot{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.buttonx{
+    padding: 13.5px 27px;
+    background-color: crimson;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.downpix{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.ft{
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
+}
+
+.tag{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
