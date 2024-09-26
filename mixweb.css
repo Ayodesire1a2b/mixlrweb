@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-.container-fluid{
-  width: 100vw;
+/* .container-fluid{
+   width: 100vw;
   height: 100hw;
-}
+} */
 
 .navbar-collapse{
     display: flex;
@@ -21,6 +21,8 @@
 .audio{
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     margin-top: 70px;
 }
 
@@ -32,48 +34,58 @@
     color: white;
     font-size: 25px;
     margin-top: 30px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
 }
 
 .one{
     display: flex;
     margin-top: 200px;
-    margin-left: 200px;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 200px; */
+    gap: 30px;
 }
 
-.pix{
+/* .pix{
     position: absolute;
     top: 580px;
 
-}
+} */
 
 .two{
     display: flex;
     margin-top: 100px;
-    margin-left: 150px;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 150px; */
+    gap: 30px;
 }
 
 .three{
     display: flex;
     margin-top: 100px;
-    margin-left: 180px;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 180px; */
+    gap: 30px;
 }
 
 .four{
     display: flex;
     margin-top: 100px;
-    margin-left: 100px;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+    gap: 30px;
 }
 
 .five{
     display: flex;
     margin-top: 100px;
-    margin-left: 150px;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 150px; */
+    gap: 30px;
 }
 
 .dot{
@@ -90,9 +102,12 @@
 
 .down{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-top: 90px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 .buttonx{
     padding: 13.5px 27px;
@@ -102,20 +117,19 @@
     color: white;
     font-size: 28px;
     margin-top: 30px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .downpix{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    margin-right: 100px;
 }
 
 .ft{
     display: flex;
     justify-content: center;
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 
 .tag{
@@ -131,4 +145,50 @@
     margin-top: 20px;
 }
 
+
+
+@media screen and (max-width:1024px) {
+    .pix{width: 500px;}
+    .ak{display: none;}
+    
+}
+
+@media screen and (max-width:768px) {
+    .ak{display: none;}
+    .word{display: none;}
+    .audio{text-align: center;}
+    .down{margin-right: 0;}
+
+    .one, .three, .five {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .two, .four{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .pix{
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width:426px) {
+    .ak{display: none;}
+    .word{display: none;}
+    .audio{align-items: center; text-align: center;}
+    .pix{width: 380px;}
+    .line{align-items: center; flex-direction: column;}
+    .dot>h1{text-align: center;}
+    .buttonx{font-size: 20px;margin-left:0px;}
+    .tag{gap: 15px;}
+    .down{margin-left: 0;}
+    .downpix{margin-right: 0;}
+    .ft{margin-right: 0;}
+    
+
+    
+}
 
